@@ -11,19 +11,18 @@ public class OOP_2 {
         System.out.println(person1.fname);
         System.out.println(person1.lname);
 
-        //System.out.println(person1.printName());
+        person1.printName();
 
-        person1.printName("Sebi", "Kovacs");
-        person1.printName("ZOli", "Kovacs");
-        person1.printName("Kati", "Kovacs");
+        //person1.printName("Sebi", "Kovacs");
+        //person1.printName("ZOli", "Kovacs");
+        //person1.printName("Kati", "Kovacs");
 
         Person person2 = new Person("Katalin", "Hada");
 
         System.out.println(person2.fname);
         System.out.println(person2.lname);
 
-
-
+        person1.printName();
 
     }
 
@@ -41,17 +40,16 @@ class Person
 
     }
 
-    Person(String fname, String lname)
+    Person(String firstname, String lastname)
     {
-        this.fname = fname;
-        this.lname = lname;
+        firstname = fname;
+        lastname = lname;
 
     }
 
-    void printName(String firstname, String lastname)
+    void printName()
     {
-        System.out.println("Name: " + fname +  " " +lname);
-        //System.out.println("Surname " + lname);
+        System.out.println("Name: " + this.fname +  " " + this.lname);
     }
 
 
