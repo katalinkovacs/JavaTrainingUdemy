@@ -7,7 +7,7 @@ public class Test {
 
 
     public static int returnvalue(int c){
-        
+        return c +5;
     }
 
     public int changeValue(int var){
