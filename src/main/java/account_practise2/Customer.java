@@ -1,7 +1,5 @@
 package account_practise2;
 
-//import java.util.ArrayList;
-
 import java.util.ArrayList;
 
 public class Customer {
