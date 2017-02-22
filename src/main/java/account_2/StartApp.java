@@ -34,7 +34,11 @@ public class StartApp {
             System.out.println(a.getClass());
             System.out.println(a.getAccountNumber());
             System.out.println(a.getBalance());
-
+            if (a instanceof SavingsAccount){
+                System.out.println("this is a saving acc");
+                SavingsAccount sa = (SavingsAccount) a;
+                System.out.println (sa.getInterest());
+            }
         }
 
         for(PhoneNumber phone : customer1.phoneNumbers){
