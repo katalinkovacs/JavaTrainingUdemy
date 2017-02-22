@@ -10,7 +10,7 @@ public class StartApp {
 
         SavingsAccount sa1 = new SavingsAccount(1, 10000, 2);
         CreditAccount ca1 = new CreditAccount(2, 20000, 20000);
-        PhoneNumber ph1 = new PhoneNumber("First contact, anytime.", 3535, "mobile");
+        PhoneNumber ph1 = new PhoneNumber("Call between 8-22.", 3535, "mobile");
         PhoneNumber ph2 = new PhoneNumber("Call between 18-20.", 4434, "home");
         PhoneNumber ph3 = new PhoneNumber("Call between 9-16.", 2345, "work");
         Email email1 = new Email("First email", "email@gmail");
@@ -45,6 +45,15 @@ public class StartApp {
                 Email e = (Email) ci;
                 System.out.println (e.getEmail());
             }
+
+            if (ci instanceof PhoneNumber){
+                System.out.println("this is a phone contact");
+                PhoneNumber ph = (PhoneNumber) ci;
+                System.out.println (ph.getPhoneNumber());
+                System.out.println (ph.getPhoneNumberType());
+
+            }
+
         }
 
 
