@@ -3,6 +3,10 @@ package account_practise2;
 
 public class PhoneNo {
 
+
+    private int phNo;
+    private String phNoType;
+
     public PhoneNo()
     {
 
@@ -13,8 +17,7 @@ public class PhoneNo {
         this.phNo = phNo;
     }
 
-    private int phNo;
-    private String phNoType;
+
 
 
 

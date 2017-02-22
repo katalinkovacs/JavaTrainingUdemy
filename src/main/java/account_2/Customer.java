@@ -1,6 +1,6 @@
-package account;
+package account_2;
 
-//import java.util.ArrayList;
+import java.util.ArrayList;
 
 
 public class Customer {
@@ -8,10 +8,13 @@ public class Customer {
 
     private int customerNumber;
     private String customerName;
+    public ArrayList<Account> myAccounts;
+    public ArrayList<PhoneNumber> phoneNumbers;
+
 
     //REFERENCE
     private PhoneNumber phoneNumber;
-    private PhoneNumber phoneNumber2;
+    //private PhoneNumber phoneNumber2;
     private SavingsAccount savingsAccount;
     private CreditAccount creditAccount;
 
@@ -19,7 +22,8 @@ public class Customer {
     public Customer(int customerNumber, String customerName) {
         this.customerNumber = customerNumber;
         this.customerName = customerName;
-        //this.myAccounts = new ArrayList<Account>();
+        this.myAccounts = new ArrayList<Account>();
+        this.phoneNumbers = new ArrayList<PhoneNumber>();
     }
 
 
@@ -54,6 +58,7 @@ public class Customer {
     }
 
     //PHONENUMBER2
+    /*
     public PhoneNumber getPhoneNumber2() {
         return phoneNumber2;
     }
@@ -61,6 +66,8 @@ public class Customer {
     public void setPhoneNumber2(PhoneNumber phoneNumber2) {
         this.phoneNumber2 = phoneNumber2;
     }
+
+*/
 
     //SAVINGSACCOUNT
     public SavingsAccount getSavingsAccount() {

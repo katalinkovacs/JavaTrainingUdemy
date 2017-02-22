@@ -1,7 +1,7 @@
-package account;
+package account_2;
 
 
-public class SavingsAccount extends Account{
+public class SavingsAccount extends Account {
 
     private int interest;
 

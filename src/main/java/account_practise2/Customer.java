@@ -4,6 +4,11 @@ import java.util.ArrayList;
 
 public class Customer {
 
+    private int custNo;
+    private String custName;
+    public ArrayList<Account> myAccounts;
+
+
     public int getCustNo() {
         return custNo;
     }
@@ -20,10 +25,9 @@ public class Customer {
         this.custName = custName;
     }
 
-    private int custNo;
-    private String custName;
 
-    public ArrayList<Account> myAccounts;
+
+
 
     public Customer(int custNo, String custName) {
         this.custNo = custNo;
