@@ -43,27 +43,6 @@ public class StartApp {
             System.out.println(phone.getPhoneNumberType());
 
         }
-
-        /*
-        System.out.println(customer1.getCustomerName());
-        System.out.println(customer1.getCustomerNumber());
-
-        System.out.println(customer1.getPhoneNumber().getPhoneNumber());
-        System.out.println(customer1.getPhoneNumber().getPhoneNumberType());
-
-        System.out.println(customer1.getPhoneNumber2().getPhoneNumber());
-        System.out.println(customer1.getPhoneNumber2().getPhoneNumberType());
-
-        System.out.println(customer1.getSavingsAccount().getAccountNumber());
-        System.out.println(customer1.getSavingsAccount().getBalance());
-        System.out.println(customer1.getSavingsAccount().getInterest());
-
-        System.out.println(customer1.getCreditAccount().getAccountNumber());
-        System.out.println(customer1.getCreditAccount().getBalance());
-        System.out.println(customer1.getCreditAccount().getCreditLimit());
-
-
-*/
     }
 
 }
